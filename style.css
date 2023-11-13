@@ -21,6 +21,7 @@
     1. Global CSS
 ====================================== */
 
+html {zoom: -20%;}
 * {
     box-sizing: border-box;
     outline: none !important;
@@ -33,29 +34,31 @@
 /*background*/
 body {
     color: #000000;
-    line-height: 1;
+    line-height: 2;
     font-size: 18px;
-    font-family: "Arial", sans-serif;
+    font-family: "Times New Roman";
     font-weight: 400;
-    min-width: 400px;
+    min-width: 550px;
     position: relative;
     overflow-x: hidden;
     background-image: url(" images/green.jpg");
     background-position: center;
 	background-attachment: fixed;
-	
 	  min-height: 100vh;
 	
 }
 
 h1 {
-  font-size: 60pt;
+  font-size: 40pt;
       text-shadow: 3px 3px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
-    color: #999dc7;
+    color: #ffdf3a;
+	    font-family: "Times New Roman";
 }
 
 p {
     margin-bottom: 40px;
+	 font-family: "Times New Roman";
+
 }
 
 a {
@@ -88,6 +91,9 @@ a:hover {
 }
 
 
+
+
+
 .doc-loader {
     position: fixed;
     left: 0px;
@@ -107,11 +113,11 @@ a:hover {
 }
 
 img.block-right {
-    max-width: calc(100% + 100px);
+    width:100%;
 }
 
 .content-670 {
-    max-width: 670px;
+    max-width: 1000px;
 }
 
 .relative {
@@ -131,6 +137,7 @@ img.block-right {
     line-height: 150%;
     letter-spacing: 5px;
     margin-bottom: 40px;
+		 font-family: "Times New Roman";
 }
 
 .section {
@@ -152,6 +159,10 @@ img.block-right {
 
 .section .section-des {
     margin-bottom: 40px;
+		 font-family: "Times New Roman";
+		 color:#a3a3a3;
+		 font-style:italic;
+		 
 }
 
 
@@ -184,10 +195,13 @@ img.block-right {
     position: relative;
     display: inline-block;
     vertical-align: top;
+	font-size:15pt;
+	color:#FFC541;
 }
 
 .nav-count .current-num {
     width: 18px;
+	font-size: 20pt;
 }
 
 .nav-count .current-num span {
@@ -220,6 +234,8 @@ img.block-right {
       1px 1px 0 #000,
        1px 1px 0 #000;
 	   color: white;
+	   font-size: 25pt;
+	     line-height: 1;
 
 
 
@@ -518,7 +534,7 @@ img.block-right {
 }
 
 .serv-block-wrap .serv-block-item {
-    width: calc(50% - 65px);
+    width: calc(50% - 0px);
     margin-bottom: 80px;
 }
 
@@ -552,7 +568,7 @@ img.block-right {
 }
 
 .about-info {
-    background-color: #fff;
+    background-color: #fff0;
     color: #000;
     width: 600px;
     padding: 70px 30px 50px 70px;
@@ -572,7 +588,7 @@ img.block-right {
 }
 
 .about-info a {
-    color: #fff;
+    color: #fff0;
     display: inline-block;
     font-weight: 400;
 }
@@ -590,7 +606,15 @@ img.block-right {
 }
 
 .signature {
-    margin-top: 10px;
+    width: 100%;
+}
+
+.flag {
+	 display: block;
+  margin-left: 10;
+  margin-right: auto
+;
+max-width:10%;
 }
 
 
@@ -1000,10 +1024,11 @@ div.pp_default .pp_description {
 }
 
 .skills-progress .name {
-    font-size: 12px;
+    font-size: 20px;
+		 font-family: "Times New Roman";
     line-height: 28px;
     letter-spacing: 3.5px;    
-    width: 37%;
+    width: 50%;
     padding-right: 30px;
 }
 
@@ -1349,6 +1374,7 @@ p.contact-submit-holder {
     .section {
         margin-top: 0;
         padding-top: 80px;
+		background image: url(images/digipro.png);
     }
 
     .section {
@@ -1384,7 +1410,7 @@ p.contact-submit-holder {
     body {
         background-image: url("img_tree.gif"), url("paper.gif");
   background-repeat: no-repeat, repeat;
-  background-color: #cccccc;
+  background-color: #00000000;
 		
     }
 
@@ -1404,6 +1430,7 @@ p.contact-submit-holder {
 
     .serv-block-wrap .serv-block-item {
         margin-bottom: 65px;
+		background:#00000000;
     }    
 
     .block-right {
@@ -1496,6 +1523,7 @@ p.contact-submit-holder {
 
     .serv-block-wrap .serv-block-item {
         width: calc(50% - 15px);
+		
     }
 
     .serv-block-wrap .serv-block-item img {
@@ -1626,7 +1654,7 @@ p.contact-submit-holder {
     }        
 
     .signature {
-        max-width: 100%;
+        width: 100%;
     }
 
     .grid-sizer, 
@@ -1957,6 +1985,19 @@ svg {
  background-image: url("images/buttonvis2.jpg");}
 .button5 {border-radius: 50%;}
 
+.button6 {border-radius: 12px;
+font-size:15px;
+  text-align: center;
+   background-color: #0f2e83;
+  
+}
+.button7 {border-radius: 5px;
+ background-image: url("images/buttonnature.jpg");
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;}
+.button8 {border-radius: 5px;
+ background-image: url("images/buttonweb.jpg");
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;}
+
 
 .content {
   padding: 0 18px;
@@ -1964,6 +2005,14 @@ svg {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
+  
+}
+
+.content1 {
+ background-color: #0f2e83;
+   color: white;
+   padding-left: 100px;
+
 }
 
 /*---------BUTTON LINK------*/
